@@ -1,0 +1,149 @@
+/*.container{
+	padding: 20px;	
+}
+h1{
+	font-size: 1.8em;
+	color: #666;
+	text-transform: uppercase;
+}*/
+
+.title {
+    text-align: center;
+    background: #02C54C;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.title a {
+    color: #ffffff;
+}
+
+.title a:link, .title a:visited {
+    text-decoration: none;
+}
+
+.title a:hover, .title a:active {
+    text-decoration: underline;
+}
+
+/* For Posts List by CodexWorld */
+.list-item {
+    border-left: 4px solid #7ad03a;
+    padding: 10px;
+    background-color: #F1F1F1;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin: 5px 15px 2px;
+}
+
+.list-item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #0074a2;
+    -webkit-transition-property: border, background, color;
+    transition-property: border, background, color;
+    -webkit-transition-duration: .05s;
+    transition-duration: .05s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+/* Search & filter */
+.post-search-panel {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.post-search-panel input, .post-search-panel select {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    float: left;
+}
+
+.post-search-panel input:focus, .post-search-panel select:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.post-search-panel input {
+    width: 300px;
+    height: 38px;
+}
+
+.post-search-panel select {
+    width: 150px;
+    margin-left: 10px;
+    height: 38px;
+}
+
+/* For Pagination Links by CodexWorld */
+div.pagination {
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+    margin: 7px;
+}
+
+div.pagination a {
+    margin: 2px;
+    padding: 0.3em 0.64em 0.43em 0.64em !important;
+    background-color: #ff3547 !important;
+    text-decoration: none;
+    color: #fff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
+    -webkit-transition: all .2s linear !important;
+    -o-transition: all .2s linear !important;
+    transition: all .2s linear !important;
+    -webkit-border-radius: .125rem !important;
+    border-radius: .125rem !important;
+    font-size: 16px !important;
+}
+
+div.pagination a:hover, div.pagination a:active {
+    padding: 0.3em 0.64em 0.43em 0.64em;
+    margin: 2px;
+    background-color: #de1818 !important;
+    color: #fff;
+}
+
+/* For Loading Overlay by CodexWorld */
+.post-wrapper {
+    position: relative;
+}
+
+.loading-overlay {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.overlay-content {
+    position: absolute;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #555;
+}
